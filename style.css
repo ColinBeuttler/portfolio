@@ -1,0 +1,37 @@
+  
+        h1 {
+            color:blue;
+            text-align: center; 
+            font-style: oblique;
+        }
+       
+        p {
+            font-style: italic; 
+            color: black; 
+            text-align: center; 
+            font-size: larger;
+        }
+        
+        ul {
+            color: black;
+        }
+        
+        img {
+            float: left; border: black;
+        }
+
+        .container{
+            height: 65px;
+            background-color: aqua;
+        }
+        
+        nav li{
+           display: inline-block; 
+           color: black;
+           line-height: 50px;
+           padding: 20px;
+        } 
+
+        .contacts{
+            background-color: paleturquoise;
+        }
