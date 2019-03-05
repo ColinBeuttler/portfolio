@@ -3,51 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Student Bio</title>
-    <link rel="stylesheet" href="style.css";> 
+
+    <link rel="stylesheet" href="./style.css" ;>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+        integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-    <div class="container">
-        
-        <nav>
-            <ul>
-                <li id="navhead"><a href="studentbio.html">Colin Beuttler</a></li>
-                <li><a href="contact.html">Contacts</a>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                </li> <li><a href="studentbio.html">Home</a></li>
-               
-            </ul>
-        </nav>
-    
+
+    <div class="pure-menu pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading pure-menu-link">Colin Beuttler</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+        </ul>
     </div>
-    
-</header>
-    <h1>Studnet Bio: Colin Beuttler</h1>
- <div class="aboutme">
 
-  <img src="https://via.placeholder.com/200">
+    <div class="pure-g"></div>
 
-    <p>Colin is a loyal father to his dog, Keeva. In additon he recieved a degree at Chapman University after transferring form community college.
-    </p>
-</div>
-    <section class="sidebar">
-        <div>
-            <h2>Connect with Me</h2>
-            <img  src=https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/github2-512.png class="social" alt="github">
-            <img src=https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-512.png class="social" alt="linkedin">
+    <div class="sidebar pure-u-u-md-1-4">
+        <div class="header">
+            <h1>Web Developer Bio: Colin Beuttler</h1>
         </div>
-    </section>
 
-    
+    </div>
+    <div class="pure-u-3-5">
+
+        <img src="https://via.placeholder.com/200">
+
+        <p>Colin is a loyal father to his dog, Keeva. In additon he recieved a degree at Chapman University after
+            transferring form community college.
+        </p>
+    </div>
+
+    <div class="pure-u-2-5">
+        <h2>Contact</h2>
+        <form class="pure-form pure-form-aligned">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" Name="name" id="name" placeholder="Your name" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="Email" id="email" placeholder="Your@email.com" required="required">
+
+                </li>
+                <li>
+                    <label for="message">Message</label> <textarea id="message" name="message"
+                        required="required"></textarea>
+                </li>
+            </ul>
+
+            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+
+        </form>
+    </div>
+
+
+    <div class="pure-u-1-5">
+        <ul class="contacts">
+            <li><strong>Email:</strong> beutt102@mail.chapman.edu</li>
+            <li><strong>Github:</strong> ColinBeuttler.github.io</li>
+            <li><strong>Linkedin:</strong> </li>
+        </ul>
+    </div>
+    </div>
+
     <footer>
         <div class="containerfoot">
             &copy;Copyright 2018 Colin Beuttler
 
         </div>
     </footer>
+
 </body>
+
 </html>

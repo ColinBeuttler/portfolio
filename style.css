@@ -1,84 +1,19 @@
+.pure-menu-list{
+    background-color: black;
+    float: right;
+    font-size: 20px;
+}
+.pure-menu-horizontal {
+    
+    background-color: black;
+    text-decoration-color: deepskyblue;
+   
+}     
 
-  
-        h1 {
-            color:blue;
-            text-align: center; 
-            font-style: oblique;
-        }
-       
-        .aboutme {
-            background-color: bisque;
-            border: 30px;
-            height: 200px;
-            width: 600px;
-            font-style: italic; 
-            color: black; 
-            text-align: center; 
-            font-size: larger;
-        }
-        
-        ul {
-            color: black;
-        }
-        
-        img {
-            float: left; border: black;
-        }
-
-        .container{
-            height: 65px;
-            background-color: aqua;
-        }
-        
-        nav li{
-           display: inline-block;
-           float: right; 
-           color: black;
-           line-height: 50px;
-           padding: 20px;
-        } 
-
-        #navhead{
-            float: left;
-            font-size: 30px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            position: fixed;
-        }
-
-        .contacts{
-            background-color: aqua;
-        }
-
-       .sidebar{
-         display: inline-block;
-         background-color: beige;
-         height: 150px;
-         width: 180px;
-         float: right;
-        
-        }
-
-       .social{
-           height: 64px;
-           width: 64px;
-       }
-
-       .portfolioitems{
-           display: block;
-        }
-
-       #contactform 
-        {background-color: bisque;
-        border: 30px;
-        height: 200px;
-        width: 600px;
-        font-style: italic; 
-        color: black;  
-        font-size: larger;
-        text-align: left;
-        }
-
-    .portfolio{
-
-    }
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
