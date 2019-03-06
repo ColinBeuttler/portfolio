@@ -4,7 +4,8 @@
   "description": "student bio",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "purecss": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
