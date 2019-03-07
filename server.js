@@ -15,6 +15,7 @@ app.use(express.json());
 // Define any path routes before this runs
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
+  // res.sendFile(path.join(__dirname, "./src/app.js"));
 });
 
 
