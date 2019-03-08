@@ -44,7 +44,8 @@
                     </li>
                     <li class="pure-u-1-1">
                         <h1 class="side-head">View My Resume</h1>
-                        <a class="pure-button" href="https://docs.google.com/document/d/1hxXd6geb2dst2L_sGhxh2LuiKeHr04Q6VKzWXeCrRkg/edit">Resume</a>
+                        <a class="pure-button"
+                            href="https://docs.google.com/document/d/1hxXd6geb2dst2L_sGhxh2LuiKeHr04Q6VKzWXeCrRkg/edit">Resume</a>
                     </li>
 
                 </ul>
@@ -53,9 +54,11 @@
 
     </div>
 
-    <h1 class="sub-head" id="mainhead">Developer Bio</h1>
-
     <div class="pure-g">
+
+        <div class="pure-u-1">
+            <h1 class="sub-head" id="mainhead">Developer Bio</h1>
+        </div>
 
 
 
@@ -148,12 +151,13 @@
         #mainhead {
             width: 80%;
             flex-flow: row wrap;
-            padding-left: 28%;
+            padding-top: 0% !important;
+            text-align: initial;
+            border-bottom: 1px solid #eee;
         }
 
         .pure-g {
-            flex-flow: row wrap;
-            padding-top: 6%;
+            padding-top: 2%;
             font-family: sans-serif;
             padding-left: 28%;
             width: 80%;
@@ -229,7 +233,7 @@
             padding-right: .5%;
         }
 
-        
+
 
         .sub-head {
             text-transform: uppercase;
@@ -239,6 +243,7 @@
             font-size: 80%;
             font-weight: 500;
             letter-spacing: 0.1em;
+            padding-top: 3%;
         }
 
         .side-head {
