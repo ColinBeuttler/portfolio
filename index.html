@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
         integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
+
 </head>
 
 <body>
@@ -60,6 +61,10 @@
             <h1 class="sub-head" id="mainhead">Developer Bio</h1>
         </div>
 
+        <div>
+            <img width="48" height="48" class="post-avatar" src="./img/20190302_130433 (2).jpg">
+        </div>
+
         <div class="pure-u-3-5">
 
             <!-- <img src="https://via.placeholder.com/200"> -->
@@ -73,13 +78,32 @@
 
         </div>
 
-        <div class="pure-u-1-1">
+        <!-- <div class="pure-u-1-1">
             <h2 class="sub-head">Technologies Used on This Site</h2>
             <a class="button-success" href="https://reactjs.org/">React</a>
             <a class="button-secondary" href="https://purecss.io/">Pure CSS</a>
             <a class="button-red" href="https://www.javascript.com/">Javascript</a>
-            <!-- https://updogsweatherfinder.herokuapp.com/ -->
-            <!-- https://goplayruff.herokuapp.com/ -->
+
+        </div> -->
+
+        <div class="pure-u-1-1">
+            <h2 class="sub-head">Previous Works</h2>
+            <ul class="pure-u-3-5">
+                <li>
+                    <a class="button-sites" href="https://updogsweatherfinder.herokuapp.com/ ">Weather Blog</a>
+                    <p>This Blog was designed to share the weather in your area with those around you. I mostly worked
+                        on the blog form, connecting it to the backend and the UI. My favorite part of this site was our
+                        use of parallax.</p>
+                </li>
+
+                <li>
+                    <a class="button-sites" href="https://goplayruff.herokuapp.com/">Go Play Ruff</a>
+                    <p>This app was desinged for dog lovers that wanted to find places around them that would let them
+                        bring their dog with or play a cool puzzle game. This was one of my first expiernces with react,
+                        I mostly worked on the tile puzzle and the login part of the backend of this site.</p>
+                </li>
+            </ul>
+
         </div>
 
         <div class="pure-u-1-1">
@@ -218,6 +242,14 @@
             font-size: 85%;
         }
 
+        .button-sites {
+            font-family: inherit;
+            background: transparent;
+            color: rgb(61, 79, 93);
+            letter-spacing: 0.05em;
+            font-size: 120%;
+        }
+
         .pure-button-primary {
             font-family: inherit;
             text-decoration: none;
@@ -264,6 +296,14 @@
             font-size: 80%;
             font-weight: 500;
             letter-spacing: 0.1em;
+        }
+
+        .post-avatar {
+            border-radius: 50px;
+            float: right;
+            margin-left: 1em;
+            box-sizing: border-box;
+
         }
     </style>
 
