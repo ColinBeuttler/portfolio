@@ -17,7 +17,7 @@ app.use(express.json());
 // Define any path routes before this runs
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname+ "/index.html"));
-  // res.sendFile(path.join(__dirname+ "/src"));
+  res.sendFile(path.join(__dirname+ "/img/20190302_130433 (2).jpg"));
 });
 
 
