@@ -9,7 +9,7 @@
 
     <title>Developer Bio</title>
 
-    <link rel="stylesheet" href="./style.css" ;>
+    <link rel="stylesheet" href="./css/style.css" ;>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
         integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body background="./img/lego_puzzle_details_126260_1920x1080.jpg">
 
     <!-- <div class="pure-menu pure-menu-horizontal">
         <a href="#" class="pure-menu-heading pure-menu-link">Colin Beuttler</a>
@@ -62,14 +62,14 @@
         </div>
 
         <div>
-            <img width="48" height="48" src="img/avatar.jpg">
+            <img width="48" height="56" class="post-avatar" src="./img/20190302_130433 (2).jpg">
         </div>
 
         <div class="pure-u-3-5">
 
             <!-- <img src="https://via.placeholder.com/200"> -->
 
-            <p>My name is Colin Beuttler, I am a recent graduate of UCI's coding bootcamp and have started to create my
+            <p id="bodytext">My name is Colin Beuttler, I am a recent graduate of UCI's coding bootcamp and have started to create my
                 own websites. I am a very team and goal oriented person, I generally thrive in an environment that has
                 an emphasis on growth and development. I enjoy being part of a team and collaborating with others
                 instead of always working on my own. I have ued many different technologies so far and am always
@@ -89,15 +89,15 @@
         <div class="pure-u-1-1">
             <h2 class="sub-head">Previous Works</h2>
             <ul class="pure-u-3-5">
-                <li>
-                    <a class="button-sites" href="https://updogsweatherfinder.herokuapp.com/ ">Weather Blog</a>
+                <li id="bodytext">
+                    <a id="bodytext" class="button-sites" href="https://updogsweatherfinder.herokuapp.com/ ">Weather Blog</a>
                     <p>This Blog was designed to share the weather in your area with those around you. I mostly worked
                         on the blog form, connecting it to the backend and the UI. My favorite part of this site was our
                         use of parallax.</p>
                 </li>
 
-                <li>
-                    <a class="button-sites" href="https://goplayruff.herokuapp.com/">Go Play Ruff</a>
+                <li id="bodytext">
+                    <a id="bodytext" class="button-sites" href="https://goplayruff.herokuapp.com/">Go Play Ruff</a>
                     <p>This app was desinged for dog lovers that wanted to find places around them that would let them
                         bring their dog with or play a cool puzzle game. This was one of my first expiernces with react,
                         I mostly worked on the tile puzzle and the login part of the backend of this site.</p>
@@ -110,16 +110,16 @@
             <h2 class="sub-head">Contact</h2>
             <form class="pure-form pure-form-aligned-center">
                 <ul>
-                    <li>
+                    <li id="bodytext">
                         <label for="name">Name</label>
                         <input type="text" Name="name" id="name" placeholder="Your name" required="required">
                     </li>
-                    <li>
+                    <li id="bodytext">
                         <label for="email">Email</label>
                         <input type="text" name="Email" id="email" placeholder="Your@email.com" required="required">
 
                     </li>
-                    <li>
+                    <li id="bodytext">
                         <label for="message">Message</label> <textarea id="message" name="message"
                             required="required"></textarea>
                     </li>
@@ -139,97 +139,12 @@
             </ul>
         </div> -->
 
-        <footer class="pure-footer">
-            <div class="containerfoot">
-                &copy;Copyright 2018 Colin Beuttler
-
-            </div>
-        </footer>
 
     </div>
 
 
 
     <style>
-        /* .pure-menu-horizontal {
-
-            font-family: sans-serif;
-            float: right;
-            font-size: 20px;
-
-        } */
-
-        .button-success {
-            background: rgb(28, 184, 65);
-            color: white;
-            border-radius: 3px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-            letter-spacing: 0.05em;
-            font-size: 90%;
-            border-color: rgb(28, 184, 65);
-            text-decoration: none;
-        }
-
-        .button-secondary {
-            background: rgb(66, 184, 221);
-            color: white;
-            border-radius: 3px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-            letter-spacing: 0.05em;
-            font-size: 90%;
-            border-color: rgb(66, 184, 221);
-            text-decoration: none;
-        }
-
-        .button-red {
-            background: rgb(202, 60, 60);
-            color: white;
-            border-radius: 3px;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-            letter-spacing: 0.05em;
-            font-size: 90%;
-            border-color: rgb(202, 60, 60);
-            text-decoration: none;
-        }
-
-        .sidebar {
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            background: rgb(61, 79, 93);
-            color: #fff;
-        }
-
-        #mainhead {
-            width: 80%;
-            flex-flow: row wrap;
-            padding-top: 0% !important;
-            text-align: initial;
-            border-bottom: 1px solid #eee;
-        }
-
-        .pure-g {
-            padding-top: 6%;
-            font-family: sans-serif;
-            padding-left: 28%;
-            width: 70%;
-            letter-spacing: normal;
-            word-spacing: normal;
-            vertical-align: top;
-            text-rendering: auto;
-        }
-
-        .header {
-            text-align: center;
-            top: auto;
-            margin: 40% auto;
-            font-family: sans-serif;
-            word-spacing: normal;
-            vertical-align: top;
-            text-rendering: auto;
-            display: inline-block;
-            zoom: 1;
-        }
 
         .pure-button {
             font-family: inherit;
@@ -241,70 +156,7 @@
             text-transform: uppercase;
             font-size: 85%;
         }
-
-        .button-sites {
-            font-family: inherit;
-            background: transparent;
-            color: rgb(61, 79, 93);
-            letter-spacing: 0.05em;
-            font-size: 120%;
-        }
-
-        .pure-button-primary {
-            font-family: inherit;
-            text-decoration: none;
-            border-radius: 2px;
-            padding: .5em 1em;
-            background-color: rgb(66, 184, 221);
-            font-size: 85%;
-        }
-
-        .pure-u-1-5 {
-            color: rgb(176, 202, 219);
-
-        }
-
-        .pure-u-3-5 {
-            background-color: rgb(61, 79, 93);
-            background: transparent;
-            border-bottom: rgb(61, 79, 93);
-            color: rgb(61, 79, 93);
-            padding-left: .5% !important;
-            padding-right: .5%;
-            width: 80% !important;
-        }
-
-
-
-        .sub-head {
-            text-transform: uppercase;
-            color: #aaa;
-            border-bottom: 1px solid #eee;
-            padding: 0.4em 0;
-            font-size: 80%;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-            padding-top: 3%;
-            width: 80%;
-            margin-bottom: 3%;
-        }
-
-        .side-head {
-            padding-top: 5%;
-            text-transform: uppercase;
-            color: #aaa;
-            font-size: 80%;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-        }
-
-        .post-avatar {
-            border-radius: 50px;
-            float: right;
-            margin-left: 1em;
-            box-sizing: border-box;
-
-        }
+        
     </style>
 
 </body>
