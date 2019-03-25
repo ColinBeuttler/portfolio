@@ -85,7 +85,9 @@
     color: rgb(61, 79, 93);
     letter-spacing: 0.05em;
     font-size: 120%;
+    padding: 2px !important;
     border: 2px solid rgb(176, 202, 219);
+
 }
 
 .pure-button-primary {
