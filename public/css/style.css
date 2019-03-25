@@ -146,5 +146,10 @@
 
 #bodytext{
    color: #fff !important;
+   background-color: rgba(27, 90, 119, 0.5);
+   padding: 2%;
 }
 
+.formtext{
+    color: #fff !important;
+}
