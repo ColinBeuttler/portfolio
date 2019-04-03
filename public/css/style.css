@@ -19,7 +19,7 @@
 }
 
 .button-secondary {
-    background: rgb(66, 184, 221);
+    background: rgb(21, 175, 221);
     color: white;
     border-radius: 3px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -165,4 +165,11 @@
     font-size: 20px;
 }
 
-
+.parallax-window{ 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-K_xc9z4su49uuXxocHf27e01yRkrdA4IBPp5etVI901eehttag");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

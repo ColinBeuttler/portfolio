@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.4",
-    "purecss": "^1.0.0"
+    "purecss": "^1.0.0",
+    "scroll-parallax": "^3.0.3"
   },
   "devDependencies": {},
   "scripts": {
