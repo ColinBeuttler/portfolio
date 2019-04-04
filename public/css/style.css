@@ -180,5 +180,9 @@
     font-size: 120%; 
     border-radius: 5px !important;
    background: rgba(27, 90, 119, 0.5); 
-
+   color: #fff !important;
+}
+.site-avatar{
+    float: left;
+    padding-right: 10px;
 }
