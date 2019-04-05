@@ -113,6 +113,7 @@
     padding-left: .5% !important;
     padding-right: .5%;
     width: 80% !important;
+    
 }
 
 
@@ -141,7 +142,7 @@
 
 .post-avatar {
     border-radius: 50px;
-    float: right;
+    float: inherit;
     margin-left: 1em;
     box-sizing: border-box;
 
