@@ -151,7 +151,7 @@
    background-color: rgba(27, 90, 119, 0.5);
    padding: 2%;
    border-radius: 10px;
-   text-decoration: none;
+   list-style-type: none;
 }
 
 .formtext{
