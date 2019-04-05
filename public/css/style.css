@@ -19,7 +19,7 @@
 }
 
 .button-secondary {
-    background: rgb(66, 184, 221);
+    background: rgb(21, 175, 221);
     color: white;
     border-radius: 3px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -59,8 +59,8 @@
 .pure-g {
     padding-top: 6%;
     font-family: sans-serif;
-    padding-left: 28%;
-    width: 70%;
+    padding-left: 8%;
+    width: 100%;
     letter-spacing: normal;
     word-spacing: normal;
     vertical-align: top;
@@ -85,6 +85,9 @@
     color: rgb(61, 79, 93);
     letter-spacing: 0.05em;
     font-size: 120%;
+    padding: 2px !important;
+    border: 2px solid rgb(176, 202, 219);
+
 }
 
 .pure-button-primary {
@@ -110,13 +113,12 @@
     padding-left: .5% !important;
     padding-right: .5%;
     width: 80% !important;
+    
 }
-
-
 
 .sub-head {
     text-transform: uppercase;
-    color: #aaa;
+    color: #fff;
     border-bottom: 1px solid #eee;
     padding: 0.4em 0;
     font-size: 80%;
@@ -138,7 +140,7 @@
 
 .post-avatar {
     border-radius: 50px;
-    float: right;
+    float: inherit;
     margin-left: 1em;
     box-sizing: border-box;
 
@@ -146,5 +148,42 @@
 
 #bodytext{
    color: #fff !important;
+   background-color: rgba(27, 90, 119, 0.5);
+   padding: 2%;
+   border-radius: 10px;
+   text-decoration: none;
 }
 
+.formtext{
+    color: #fff !important;
+}
+
+.pure-menu{
+    background-color: rgba(236, 235, 241, 0.7);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    position: fixed;
+}
+
+.parallax-window{ 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-K_xc9z4su49uuXxocHf27e01yRkrdA4IBPp5etVI901eehttag");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.techspecs{
+    width: 75%;
+    text-align: center;
+    font-size: 120%; 
+    border-radius: 5px !important;
+   background: rgba(27, 90, 119, 0.5); 
+   color: #fff !important;
+   
+}
+.site-avatar{
+    float: left;
+    padding-right: 10px;
+}
