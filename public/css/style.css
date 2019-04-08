@@ -166,7 +166,6 @@
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;   
     flex-wrap: wrap;
-    word-wrap: break-word;
 }
 
 .parallax-window{ 
@@ -190,4 +189,11 @@
 .site-avatar{
     float: left;
     padding-right: 10px;
+}
+
+.pure-menu-item{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
 }
