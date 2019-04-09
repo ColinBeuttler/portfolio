@@ -166,7 +166,6 @@
     /* -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     /* display: flex;   
     flex-wrap: wrap; */
-    word-wrap: break-word; 
 } 
 
 .parallax-window{ 
