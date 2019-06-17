@@ -1,7 +1,7 @@
-/* .pure-menu-horizontal {
-    font-family: sans-serif;
-    float: right;
-    font-size: 20px;
+/* body, html {
+    background-image: "/img/lego_puzzle_details_126260_1920x1080.jpg";
+    height: 100%;
+    scroll-behavior:smooth; 
 } */
 
 .button-success {
@@ -97,6 +97,7 @@
     font-size: 85%;
     margin-bottom: 4%;
 }
+
 
 .pure-u-1-5 {
     color: rgb(176, 202, 219);
