@@ -139,7 +139,7 @@ body, html {
 
 
 .parallax{
-    background-image: url("./img/lego_puzzle_details_126260_1920x1080.jpg");
+    background-image: url("../public/img/lego_puzzle_details_126260_1920x1080.jpg");
     height: 100%;
     text-align: center;
     background-attachment: fixed;
@@ -150,7 +150,7 @@ body, html {
 
 
 .parallax2{
-    background-image: url("./img/JUN15_18_000037066274.jpg");
+    background-image: url("../img/JUN15_18_000037066274.jpg");
     height: 100%;
     text-align: center;
     background-attachment: fixed;
