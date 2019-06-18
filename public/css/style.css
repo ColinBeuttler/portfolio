@@ -136,3 +136,25 @@ body, html {
     float: left;
     padding-right: 10px;
 }
+
+
+.parallax{
+    background-image: url("./img/lego_puzzle_details_126260_1920x1080.jpg");
+    height: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+
+.parallax2{
+    background-image: url("./img/JUN15_18_000037066274.jpg");
+    height: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+  }
