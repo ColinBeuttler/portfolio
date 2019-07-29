@@ -43,7 +43,7 @@ body, html {
     flex-flow: row wrap;
     padding-top: 0% !important;
     text-align: initial;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;                              
     padding-top: 4% !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 120%;
@@ -154,7 +154,7 @@ body, html {
 
 
 .parallax2{
-    background-image: url("../img/JUN15_18_000037066274.jpg");
+    background-image: url("../img/SOADCeramicsWheel.jpg");
     height: 75%;
     text-align: center;
     background-attachment: fixed;
