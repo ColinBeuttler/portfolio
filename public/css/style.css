@@ -149,12 +149,22 @@ body, html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;;
+    background-size: cover;
 }
 
 
 .parallax2{
     background-image: url("../img/SOADCeramicsWheel.jpg");
+    height: 75%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax1{
+    background-image: url("/img/l59YUJJ.jpg");
     height: 75%;
     text-align: center;
     background-attachment: fixed;
